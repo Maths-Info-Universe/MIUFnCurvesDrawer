@@ -5,14 +5,7 @@
 package miu.fncurvesdrawer.models.util;
 
 import java.awt.Desktop;
-import java.awt.HeadlessException;
-import java.io.File;
 import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import javax.swing.JOptionPane;
 import miu.fncurvesdrawer.controllers.MiuFncdIHMController;
 import miu.fncurvesdrawer.controllers.util.MIUControllerModel;
@@ -20,7 +13,6 @@ import miu.fncurvesdrawer.observers.adapters.MiuFncdObservableAdapter;
 import miu.fncurvesdrawer.util.MIUConfigManager;
 import miu.fncurvesdrawer.views.MiuFncdLoadingDialog;
 import miu.fncurvesdrawer.views.MiuFncdSettingGUIDialog;
-import org.joda.time.DateTime;
 
 /**
  *
